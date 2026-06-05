@@ -1,0 +1,161 @@
+/* styles.module.css */
+
+/*Aqui dá um reset no HTML*/
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.logo{
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  height: 64px;
+}
+
+.background {
+  background: linear-gradient(135deg, #1d1b38 0%, #17366b 50%, #155ba1 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f2f3f5;
+}
+
+.loginCard {
+  background-color: #313338;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  max-width: 780px;
+  width: 100%;
+  gap: 32px;
+}
+
+.leftPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.subtitle {
+  text-align: center;
+  color: #b5bac1;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.label {
+  color: #b5bac1;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+/* Asterisco vermelho */
+.label span {
+  color: #f23f42; 
+  margin-left: 4px;
+}
+
+.input {
+  background-color: #1e1f22;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: #dbdee1;
+  font-size: 16px;
+  outline: none;
+}
+
+.forgotPassword {
+  color: #00a8fc;
+  font-size: 12px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: -8px;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.loginButton {
+  background-color: #5865F2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 8px;
+}
+
+.loginButton:hover {
+  background-color: #4752c4;
+}
+
+.registerText {
+  font-size: 14px;
+  color: #949ba4;
+}
+
+.registerLink {
+  color: #00a8fc;
+  text-decoration: none;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+}
+
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  text-align: center;
+}
+
+.qrPlaceholder {
+  background-color: white;
+  width: 176px;
+  height: 176px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+}
+
+.qrTitle {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.qrSubtitle {
+  color: #b5bac1;
+  font-size: 14px;
+}

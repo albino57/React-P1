@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
+import logo from "./assets/Discord-Symbol2.png";
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
   //---↓ Lógica da página HTML ↓---
   return (
     <div className={styles.background}>
-
+      <img className={styles.logo} src={logo} alt="Logo do Discord"/>
       <div className={styles.loginCard}>
 
         {/*---↓ Lado Esquerdo, o formulário ↓---*/}
