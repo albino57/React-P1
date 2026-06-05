@@ -11,10 +11,10 @@ Este projeto é um exercício prático de frontend desenvolvido com **React** e 
 Abaixo estão as imagens comparativas entre a página original que serviu de inspiração e o resultado desenvolvido neste projeto.
 
 ### 1. Página Original (Referência)
-![Página original do Discord para o clone](../P1_Projeto/paginaDeClone.png)
+![Página original do Discord para o clone](paginaDeClone.png)
 
 ### 2. Nova Página (Projeto Desenvolvido)
-![Resultado final do clone](../P1_Projeto/paginaCriada.png)
+![Resultado final do clone](paginaCriada.png)
 
 ---
 
