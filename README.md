@@ -1,16 +1,25 @@
-# React + Vite
+# Clone da Página de Login do Discord
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um exercício prático de frontend desenvolvido com **React** e **Vite**. O objetivo do trabalho foi recriar a interface da página de login do Discord, utilizando Flexbox e CSS Modules para a estruturação do layout, além de gerenciar o estado do formulário com React Hooks (`useState` e `useEffect`).
 
-Currently, two official plugins are available:
+**Desenvolvido por:** Rafael Albino Ribeiro
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Comparação Visual
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Abaixo estão as imagens comparativas entre a página original que serviu de inspiração e o resultado desenvolvido neste projeto.
 
-## Expanding the ESLint configuration
+### 1. Página Original (Referência)
+![Página original do Discord para o clone](../P1_Projeto/paginaDeClone.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Nova Página (Projeto Desenvolvido)
+![Resultado final do clone](../P1_Projeto/paginaCriada.png)
+
+---
+
+## 🚀 Tecnologias Utilizadas
+* React
+* JavaScript
+* CSS Modules (`styles.module.css`)
+* Vite
