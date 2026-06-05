@@ -89,6 +89,9 @@ function App() {
             Escaneie isto com o <strong>app móvel do Discord</strong> para fazer
             login imediatamente.
           </p>
+          <a href="#" className={styles.registerLink}>
+              Ou, faça login com uma passkey 
+          </a>
         </div>
       </div>
 
